@@ -1,7 +1,7 @@
 # Gridi Framework Paragraphs
 
 ## Install
-`brew install gridi-framework-paragraphs`
+`bower install gridi-framework-paragraphs`
 
 ## Licence
 
