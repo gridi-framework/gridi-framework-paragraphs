@@ -1,4 +1,4 @@
 p {
-    margin: $p-margin;
+    @include include-element-margin($p-margin-top, $p-margin-bottom, $p-margin-left, $p-margin-right, $p-margin-for-screens);
     padding: 0;
 }
