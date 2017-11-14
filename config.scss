@@ -4,7 +4,7 @@ $p-margin-bottom: $elements-margin-bottom !default;
 $p-margin-left: $elements-margin-left !default;
 $p-margin-right: $elements-margin-right !default;
 //Defined margins for each screens.
-$p-margin-for-screens: () !default;
+$p-margin-for-screens: $elements-margin-for-screens !default;
 /*$p-margin-for-screens: (
     s1: (
         top: 20px, //Not required. Define only the margins values you want to change. Example - s2: ( top: 20px ) - change only top margin for screens greater than s2
