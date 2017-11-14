@@ -1,4 +1,15 @@
 p {
-    @include include-element-margin($p-margin-top, $p-margin-bottom, $p-margin-left, $p-margin-right, $p-margin-for-screens);
-    padding: 0;
+    @include margin-shorthand-with-screens-support((
+        top: $p-margin-top, 
+        bottom: $p-margin-bottom, 
+        left: $p-margin-left, 
+        right: $p-margin-right
+    ), $p-margin-for-screens);
+    @include padding-shorthand-with-screens-support((
+        top: $p-padding-top, 
+        bottom: $p-padding-bottom, 
+        left: $p-padding-left, 
+        right: $p-padding-right
+    ), $p-padding-for-screens);
+    @include p-extra-style();
 }

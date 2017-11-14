@@ -14,3 +14,22 @@ $p-margin-for-screens: () !default;
     ),
     ...
 ) !default;*/
+
+//Paddings
+$p-padding-top: 0 !default;
+$p-padding-bottom: 0 !default;
+$p-padding-left: 0 !default;
+$p-padding-right: 0 !default;
+//Defined paddings for each screens.
+$p-padding-for-screens: () !default;
+/*$p-padding-for-screens: (
+    s1: (
+        top: 20px, //Not required. Define only the paddings values you want to change. Example - s2: ( top: 20px ) - change only top padding for screens greater than s2
+        bottom: 20px,
+        left: 20px,
+        right: 20px,
+    ),
+    ...
+) !default;*/
+
+@mixin p-extra-style() {}
