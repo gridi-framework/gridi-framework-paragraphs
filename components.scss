@@ -11,5 +11,7 @@ p {
         left: $p-padding-left, 
         right: $p-padding-right
     ));
-    @include p-extra-style();
+    @if mixin-exists(p-extra-style) {
+        @include p-extra-style();
+    }
 }

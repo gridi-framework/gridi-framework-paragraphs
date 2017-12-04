@@ -12,4 +12,4 @@ $p-padding-left: 0 !default;
 $p-padding-right: 0 !default;
 
 //Extra style
-@mixin p-extra-style() {}
+//@mixin p-extra-style() {} //Create this mixin before import module when you want add some special style for element
